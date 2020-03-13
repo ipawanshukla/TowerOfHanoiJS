@@ -1,1 +1,1 @@
-# TowerOfHanoiJS
+# TowerOfHanoi in javascript
