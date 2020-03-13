@@ -1,0 +1,101 @@
+.login-container{
+    background-color: #FFFFFF;
+    position: relative;
+    border:1px solid;
+    width: 30%;
+    border-radius: 25px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 600px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-area{
+    flex:2;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    background-image: url('./assets/black-thread.png');
+    background-color: aqua;
+
+}
+
+.title-area{
+    padding-top: 40px;
+    font: 2em PT Sans;
+    text-align: center;
+    flex: 1;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+
+.login-components{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.title{
+    font: 2em sans-serif;
+    text-align: center;
+    flex: 1;
+}
+.main-inp-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    border-radius: 10px;
+    flex:3;     
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: gray;
+    color: white;
+    min-width: 40px;
+    text-align: center;
+
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-family: 'PT Sans';
+    border-top-right-radius: 10px;
+  }
+  
+  .input-field:focus {
+    border: 2px solid yellow;
+  }
+
+  .btn {
+    background-color: yellow;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    opacity: 0.9;
+    font-family: 'PT Sans';
+  }
+
+  .main-inp-btn{
+      flex:1;
+      padding-top: 1em;
+      justify-content: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
